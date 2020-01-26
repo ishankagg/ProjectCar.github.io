@@ -1,0 +1,98 @@
+h1 {
+    color: grey;
+    text-align: center;
+    border: 5px double grey;
+    box-shadow: 4px 4px 4px #888888;
+}
+
+
+.navbar {
+    background-color: rgba(28, 28,28, 0.6) !important;
+    transition: all ease 3s;
+    
+}
+
+.navbar .navbar-brand {
+    color: white !important;
+    display: block !important;
+}
+
+.navbar .navbar-brand .nav .nav-item {
+    display: inline-block !important;
+}
+
+body {
+    background: url(images/bg1.jpg) no-repeat;
+    background-size: cover;
+    cursor: url(cursor.png) 24 15, auto;   
+}
+
+
+
+.ken {
+    border:10px dashed pink ;
+    font-family: 'bangers', cursive;
+    font-size: 20;
+    
+}
+
+
+img {
+    float: left;
+}
+    
+
+
+.blog-text p{
+    display: flex;
+    color: #fff;
+    font-family: 'candara', cursive;
+    font-size: 15px;
+    line-height: 1;
+    margin: 10px 10px;
+    
+}
+
+.blog-heading h2{
+    font-family: 'Candara', cursive;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+    box-shadow: 4px 4px 5px #888888;
+    -webkit-box-align: center;
+    margin: 10px auto;
+
+    
+}
+
+.blog-links li a {
+    color: #fff;
+}
+
+.blog-links li a:hover {
+    color: blue;
+    cursor: url(cursor.png) 24 15, auto
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    ;
+}
+
+.gallery img {
+    height: 200px;
+    width: 250px;
+    margin: 30px;
+    transition: all 1s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
